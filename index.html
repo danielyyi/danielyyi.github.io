@@ -1,218 +1,404 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Daniel Yi Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <title>W3.CSS Template</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
-      font-family: "Raleway", sans-serif
-    }
-  </style>
-</head>
+  <body class="w3-light-grey">
+    <div class="w3-content" style="max-width: 1400px">
+      <header class="w3-container w3-center w3-padding-32">
+        <h1><b>Daniel Yi</b></h1>
+        <p>
+          A portfolio of my personal <span class="w3-tag">coding projects</span> 
+          thus far
+        </p>
+        <p>
+          Below you'll find some of my favorite and most challenging projects <span> <img style="width: 30px;margin-bottom: 5px" src="pics/star3.png"></img></span> and some that were just fun to make  <span> <img style="width: 25px" src="pics/lab.webp"></img></span>!
+        </p>
+      </header>
 
-<body class="w3-light-grey">
-  <div class="w3-content" style="max-width:1400px">
-    <header class="w3-container w3-center w3-padding-32">
-      <h1><b>Daniel Yi</b></h1>
-      <p>A portfolio of my <span class="w3-tag">favorite</span> coding projects thus far</p>
-    </header>
+      <!-- Grid -->
+      <div class="w3-row">
+        <!-- Blog entries -->
+        <div class="w3-col l8 s12">
+          <!-- Blog entry -->
+          <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+              <h3><b>NewThreads</b></h3>
 
-    <!-- Grid -->
-    <div class="w3-row">
-
-      <!-- Blog entries -->
-      <div class="w3-col l8 s12">
-        <!-- Blog entry -->
-        <div class="w3-card-4 w3-margin w3-white">
-          <div class="w3-container">
-            <h3><b>Youstagram</b></h3>
-            <img src="YoustagramLogo.png" alt="Youstagram Logo" style="width:100px">
-            <h5>A full-stack social media app, <span class="w3-opacity">2023</span></h5>
-          </div>
-          <div class="w3-container">
-            <p>I built an Instagram-like social media site with CRUD functionality using the MERN stack. Youstagram
-              users can create profiles, post customized images with captions, comment on other posts, search for other
-              users, view others' profiles, and scroll through a feed of all posts. I learned to pass data effectively
-              through front end browsers, web servers, and databases (and the complexities that follow). Through this
-              experience of reading docs, debugging, watching tutorials, and piecing together information to make this
-              app, I not only honed by problem solving skills and work flow, but learned to appreciate the little things
-              behind giant software products. Made using Javascript and Javascript libraries.</p>
-            <div class="w3-row">
-              <div class="w3-col m8 s12">
-                <p><a href="https://youstagram.onrender.com/#/"><button
-                      class="w3-button w3-padding-large w3-white w3-border"><b>Check it out (Please allow some time for it to load) »</b></button></a></p>
-              </div>
-              <div class="w3-col m4 w3-hide-small">
-                <p><span class="w3-padding-large w3-right"> <b><img src="star.png" style="width:35px"></b><a
-                      href="https://github.com/danielyyi/Youstagram"><b><img src="github.png"
-                          style="width:35px"></b></a>
-                  </span></p>
+              <h5>
+                A minimalist video game, <span class="w3-opacity">2019</span>
+              </h5>
+            </div>
+            <div class="w3-container">
+              <p>
+                This game is an first-person-shooter where the objective is to
+                navigate a set of rooms, shooting and eliminating 15 target
+                boxes as quick as possible. I had fun making the reload
+                animations as well as designing the game mechanics. This was one
+                of my earliest introductions to game development and it's
+                written in Unity's C#.
+              </p>
+              <div class="w3-row">
+                <div class="w3-col m8 s12">
+                  <p>
+                    <a href="https://youtu.be/OLZQMVueu0M"
+                      ><button
+                        class="w3-button w3-padding-large w3-white w3-border"
+                      >
+                        <b>Check it out »</b>
+                      </button></a
+                    >
+                  </p>
+                </div>
+                <div class="w3-col m4 w3-hide-small">
+                  <p>
+                    <span class="w3-padding-large w3-right">
+                      <b><img src="pics/lab.webp" style="width: 35px" /></b
+                      >
+                    </span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="w3-card-4 w3-margin w3-white">
-          <div class="w3-container">
-            <h3><b>Bedwarstats.com</b></h3>
-            <img src="Bedwars.png" alt="Youstagram Logo" style="width:100px">
-            <h5>A stat tracker website for a popular video game, <span class="w3-opacity">2021</span></h5>
-          </div>
-          <div class="w3-container">
-            <p>This website shows player achievment data in a popular Minecraft combat game called Bedwars. This is the
-              first time I learned and worked with React Router and React.js in general. I learned how to
-              use React Hooks as well as use an API key to get information from an API. Additionally, I used Netlify for
-              deployment and also used Netlify lambda
-              functions in order to hide my API key. This project served as a fun introduction to web development
-              through API calls and data parsing. I also practiced CSS and UI skills through displaying player data in
-              an organized manner. Made using Javascript and Javascript libraries.</p>
-            <div class="w3-row">
-              <div class="w3-col m8 s12">
-                <p><a href="https://bedwarstats.com/"><button
-                      class="w3-button w3-padding-large w3-white w3-border"><b>Check it out »</b></button></a></p>
-              </div>
-              <div class="w3-col m4 w3-hide-small">
-                <p><span class="w3-padding-large w3-right"> <b><img src="star.png" style="width:35px"></b><a
-                      href="https://github.com/danielyyi/Hypixel-Bedwars-Tracker"><b><img src="github.png"
-                          style="width:35px"></b></a>
-                  </span></p>
+          <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+              <h3><b>Buckeye Course Parser</b></h3>
+              <img
+                src="pics/osu.PNG"
+                alt="osu"
+                style="width: 100px"
+              />
+              <h5>
+                A minimalist video game, <span class="w3-opacity">2019</span>
+              </h5>
+            </div>
+            <div class="w3-container">
+              <p style="font-style:normal">
+                This game is an first-person-shooter where the objective is to
+                navigate a set of rooms, shooting and eliminating 15 target
+                boxes as quick as possible. I had fun making the reload
+                animations as well as designing the game mechanics. This was one
+                of my earliest introductions to game development and it's
+                written in Unity's C#.
+              </p>
+              <div class="w3-row">
+                <div class="w3-col m8 s12">
+                  <p>
+                    <a href="https://youtu.be/OLZQMVueu0M"
+                      ><button
+                        class="w3-button w3-padding-large w3-white w3-border"
+                      >
+                        <b>Check it out »</b>
+                      </button></a
+                    >
+                  </p>
+                </div>
+                <div class="w3-col m4 w3-hide-small">
+                  <p>
+                    <span class="w3-padding-large w3-right">
+                      <b><img src="pics/lab.webp" style="width: 35px" /><img></b>
+                    </span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="w3-card-4 w3-margin w3-white">
-          <div class="w3-container">
-            <h3><b>Danny-gram</b></h3>
-            <img src="dannygram.PNG" alt="Youstagram Logo" style="width:100px">
-            <h5>Simpler CRUD site made following a YouTube tutorial, <span class="w3-opacity">2021</span></h5>
-          </div>
-          <div class="w3-container">
-            <p>This project was simply me following a tutorial about full-stack web development. The site consists of
-              simple posts with captions and allowed me to dip my toes into web dev.</p>
-            <div class="w3-row">
-              <div class="w3-col m8 s12">
-                <p><a href="https://danny-gram.netlify.app/"><button
-                      class="w3-button w3-padding-large w3-white w3-border"><b>Check it out »</b></button></a></p>
-              </div>
-              <div class="w3-col m4 w3-hide-small">
-                <p><span class="w3-padding-large w3-right"> <a
-                      href="https://github.com/danielyyi/Danny-gram-Social-Media-App"><b><img src="github.png"
-                          style="width:35px"></b></a>
-                  </span></p>
+          <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+              <h3><b>Youstagram</b></h3>
+              <img
+                src="pics/YoustagramLogo.png"
+                alt="Youstagram Logo"
+                style="width: 100px"
+              />
+              <h5>
+                A full-stack social media app,
+                <span class="w3-opacity">2023</span>
+              </h5>
+            </div>
+            <div class="w3-container">
+              <p style="font-style:normal">
+                I built an Instagram-like social media site with CRUD
+                functionality using the MERN stack. Youstagram users can create
+                profiles, post customized images with captions, comment on other
+                posts, search for other users, view others' profiles, and scroll
+                through a feed of all posts. I learned to pass data effectively
+                through front end browsers, web servers, and databases (and the
+                complexities that follow). Through this experience of reading
+                docs, debugging, watching tutorials, and piecing together
+                information to make this app, I not only honed by problem
+                solving skills and work flow, but learned to appreciate the
+                little things behind giant software products. Made using
+                Javascript and Javascript libraries.
+              </p>
+              <div class="w3-row">
+                <div class="w3-col m8 s12">
+                  <p>
+                    <a href="https://youstagram.onrender.com/#/"
+                      ><button
+                        class="w3-button w3-padding-large w3-white w3-border"
+                      >
+                        <b
+                          >Check it out (Please allow some time for it to load)
+                          »</b
+                        >
+                      </button></a
+                    >
+
+                    <a href="https://youtu.be/ThnOPYyiddI"
+                    ><button
+                      class="w3-button w3-padding-large w3-white w3-border"
+                    >
+                      <b
+                        >Link to a video »</b
+                      >
+                    </button></a
+                  >
+                  </p>
+                </div>
+                <div class="w3-col m4 w3-hide-small">
+                  <p>
+                    <span class="w3-padding-large w3-right">
+                      <b><img src="pics/star.png" style="width: 35px" /></b
+                      ><a href="https://github.com/danielyyi/Youstagram"
+                        ><b><img src="pics/github.png" style="width: 35px" /></b
+                      ></a>
+                    </span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="w3-card-4 w3-margin w3-white">
-          <div class="w3-container">
-            <h3><b>Super Smash Bros Parody</b></h3>
-            
-            <h5>Remake of a popular video game with new characters, <span class="w3-opacity">2020</span></h5>
-          </div>
-          <div class="w3-container">
-            <p>This is a silly project I made out of impulse. Popular characters like Waluigi, Peppa Pig, and The
-              Mandalorian meet to fight in a 2-player arcade game. I created all the animations and effects myself, as
-              well coded all of the game functions in Unity's C# to mimic the original game mechanics.</p>
-            <div class="w3-row">
-              <div class="w3-col m8 s12">
-                <p><a href="https://youtu.be/zw8oHsihJfg"><button class="w3-button w3-padding-large w3-white w3-border"><b>Check it out
-                        »</b></button></a></p>
-              </div>
-              <div class="w3-col m4 w3-hide-small">
-                <p><span class="w3-padding-large w3-right"> <a
-                      href="https://github.com/danielyyi/Super-Copyright-Bros"><b><img src="github.png"
-                          style="width:35px"></b></a>
-                  </span></p>
+          <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+              <h3><b>Bedwarstats.com</b></h3>
+              <img
+                src="pics/Bedwars.png"
+                alt="Youstagram Logo"
+                style="width: 100px"
+              />
+              <h5>
+                A stat tracker website for a popular video game,
+                <span class="w3-opacity">2021</span>
+              </h5>
+            </div>
+            <div class="w3-container">
+              <p>
+                This website shows player achievment data in a popular Minecraft
+                combat game called Bedwars. This is the first time I learned and
+                worked with React Router and React.js in general. I learned how
+                to use React Hooks as well as use an API key to get information
+                from an API. Additionally, I used Netlify for deployment and
+                also used Netlify lambda functions in order to hide my API key.
+                This project served as a fun introduction to web development
+                through API calls and data parsing. I also practiced CSS and UI
+                skills through displaying player data in an organized manner.
+                Made using Javascript and Javascript libraries. The website is no longer active but a video is posted below :)
+              </p>
+              <div class="w3-row">
+                <div class="w3-col m8 s12">
+                  <p>
+                    <a href="https://youtu.be/xhrr1NCp9Lw"
+                      ><button
+                        class="w3-button w3-padding-large w3-white w3-border"
+                      >
+                        <b>Check it out »</b>
+                      </button></a
+                    >
+                  </p>
+                </div>
+                <div class="w3-col m4 w3-hide-small">
+                  <p>
+                    <span class="w3-padding-large w3-right">
+                      <b><img src="pics/star.png" style="width: 35px" /></b
+                      ><a
+                        href="https://github.com/danielyyi/Hypixel-Bedwars-Tracker"
+                        ><b><img src="pics/github.png" style="width: 35px" /></b
+                      ></a>
+                    </span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="w3-card-4 w3-margin w3-white">
-          <div class="w3-container">
-            <h3><b>mac</b></h3>
-            <img src="mac.PNG" alt="Youstagram Logo" style="width:100px">
-            <h5>A minimalist video game, <span class="w3-opacity">2019</span></h5>
-          </div>
-          <div class="w3-container">
-            <p>This game is an first-person-shooter where the objective is to navigate a set of rooms, shooting and
-              eliminating 15 target boxes as quick as possible. I had fun making the reload animations as well as
-              designing the game mechanics. This was one of my earliest introductions to game development and it's
-              written in Unity's C#.</p>
-            <div class="w3-row">
-              <div class="w3-col m8 s12">
-                <p><a href="https://ysun.itch.io/mac"><button
-                      class="w3-button w3-padding-large w3-white w3-border"><b>Check it out »</b></button></a></p>
-              </div>
-              <div class="w3-col m4 w3-hide-small">
-                <p><span class="w3-padding-large w3-right"> <b><img src="star.png" style="width:35px"></b><a
-                      href="https://github.com/danielyyi/mac"><b><img src="github.png" style="width:35px"></b></a>
-                  </span></p>
+
+
+          <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+              <h3><b>Super Smash Bros Parody</b></h3>
+              <img
+              src="pics/smash.PNG"
+              alt="Youstagram Logo"
+              style="width: 100px"
+            />
+              <h5>
+                Remake of a popular video game with new characters,
+                <span class="w3-opacity">2020</span>
+              </h5>
+            </div>
+            <div class="w3-container">
+              <p>
+                This is a silly project I made out of impulse. Popular
+                characters like Waluigi, Peppa Pig, and The Mandalorian meet to
+                fight in a 2-player arcade game. I created all the animations
+                and effects myself, as well coded all of the game functions in
+                Unity's C# to mimic the original game mechanics.
+              </p>
+              <div class="w3-row">
+                <div class="w3-col m8 s12">
+                  <p>
+                    <a href="https://youtu.be/zw8oHsihJfg"
+                      ><button
+                        class="w3-button w3-padding-large w3-white w3-border"
+                      >
+                        <b>Check it out »</b>
+                      </button></a
+                    >
+                  </p>
+                </div>
+                <div class="w3-col m4 w3-hide-small">
+                  <p>
+                    <span class="w3-padding-large w3-right">
+                      <b><img src="pics/lab.webp" style="width: 35px" /><img></b>
+                    </span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="w3-card-4 w3-margin w3-white">
-          <div class="w3-container">
-            <h3><b>What inspired me to code?</b></h3>
-            <img src="middleschool.jpg" alt="Youstagram Logo" style="width:200px">
-            <h5>It all started in middle school... </h5>
-          </div>
-          <div class="w3-container">
-            <p>I was inspired by Iron Man and BattleBots to teach myself how to build small devices with Arduinos. This
-              soon led to me picking up various programming languages, opening many doors for my academic and creative
-              endeavors.</p>
-            <div class="w3-row">
-              <div class="w3-col m8 s12">
-
-              </div>
-              <div class="w3-col m4 w3-hide-small">
-
+          <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+              <h3><b>mac</b></h3>
+              <img
+                src="pics/mac.PNG"
+                alt="Youstagram Logo"
+                style="width: 100px"
+              />
+              <h5>
+                A minimalist video game, <span class="w3-opacity">2019</span>
+              </h5>
+            </div>
+            <div class="w3-container">
+              <p>
+                This game is an first-person-shooter where the objective is to
+                navigate a set of rooms, shooting and eliminating 15 target
+                boxes as quick as possible. I had fun making the reload
+                animations as well as designing the game mechanics. This was one
+                of my earliest introductions to game development and it's
+                written in Unity's C#.
+              </p>
+              <div class="w3-row">
+                <div class="w3-col m8 s12">
+                  <p>
+                    <a href="https://ysun.itch.io/mac"
+                      ><button
+                        class="w3-button w3-padding-large w3-white w3-border"
+                      >
+                        <b>Check it out »</b>
+                      </button></a
+                    >
+                  </p>
+                </div>
+                <div class="w3-col m4 w3-hide-small">
+                  <p>
+                    <span class="w3-padding-large w3-right">
+                      <b><img src="pics/star.png" style="width: 35px" /></b
+                      ><a href="https://github.com/danielyyi/mac"
+                        ><b><img src="pics/github.png" style="width: 35px" /></b
+                      ></a>
+                    </span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
+
+          <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+              <h3><b>Knuckle Ave.</b></h3>
+              <img
+                src="pics/knuckle.jpg"
+                alt="Youstagram Logo"
+                style="width: 100px"
+              />
+              <h5>
+                An experimental fighter, <span class="w3-opacity">2019</span>
+              </h5>
+            </div>
+            <div class="w3-container">
+              <p>
+                This game toys with the idea of mixing the popular open-world game GTA V with Street Fighter, where players can engage a combat
+                 sequence with any NPC. Players must dodge attacks and fight back and NPCs do the same. This was one
+                of my earliest introductions to game development and it's
+                written in Unity's C#.
+              </p>
+              <div class="w3-row">
+                <div class="w3-col m8 s12">
+                  <p>
+                    <a href="https://youtu.be/IJ39RkR_Ceo"
+                      ><button
+                        class="w3-button w3-padding-large w3-white w3-border"
+                      >
+                        <b>Check it out »</b>
+                      </button></a
+                    >
+                  </p>
+                </div>
+                <div class="w3-col m4 w3-hide-small">
+                  <p>
+                    <span class="w3-padding-large w3-right">
+                      <b><img src="pics/lab.webp" style="width: 35px" /><img></b>
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <hr />
         </div>
 
-
-
-        <hr>
+        <div class="w3-col l4">
+          <!-- About Card -->
+          <div class="w3-card w3-margin w3-margin-top">
+            <img src="pics/pfp.jpg" style="width: 200px" />
+            <div class="w3-container w3-white">
+              <h4><b>About Me</b></h4>
+              <p>
+                Hey! I'm a 2nd year at The Ohio State University, studying
+                Computer Science and Engineering. I love challenging myself by
+                taking on arduous yet intriguing projects and I've loved
+                building things for as long as I can remember. My other hobbies
+                include playing the guitar and soccer.
+                <br></br>
+                Email: daniel.youngsun@gmail.com
+              </p>
+            </div>
+          </div>
+          <hr />
+          <hr />
+        </div>
       </div>
-
-
-
-      <div class="w3-col l4">
-        <!-- About Card -->
-        <div class="w3-card w3-margin w3-margin-top">
-          <img src="pfp.jpg" style="width:200px">
-          <div class="w3-container w3-white">
-            <h4><b>About Me</b></h4>
-            <p>Hey! I'm a freshman at The Ohio State University, studying Computer Science and Engineering. I love
-              challenging myself by taking on arduous yet intriguing projects and I've loved building things for as long
-              as I can
-              remember. My other hobbies include playing the guitar and
-              soccer.</p>
-          </div>
-        </div>
-        <hr>
-        <hr>
-      </div>
-    </div><br>
-  </div>
-  <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-  </footer>
-</body>
-
+      <br />
+    </div>
+    <footer
+      class="w3-container w3-dark-grey w3-padding-32 w3-margin-top"
+    ></footer>
+  </body>
 </html>
